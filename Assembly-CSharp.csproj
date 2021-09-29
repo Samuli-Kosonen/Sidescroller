@@ -53,15 +53,16 @@
     <UnityVersion>2020.3.15f2</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\AddScore.cs" />
+    <Compile Include="Assets\Scripts\Score.cs" />
     <Compile Include="Assets\Scripts\Move.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\FlyLittleBird.cs" />
     <Compile Include="Assets\Scripts\PipeSpawner.cs" />
-    <Compile Include="Assets\AddScore.cs" />
-    <Compile Include="Assets\Score.cs" />
+    <Compile Include="Assets\Scripts\highscore.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
